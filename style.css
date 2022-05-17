@@ -61,6 +61,7 @@ header {
     border: none;
     font-weight: 700;
     cursor: pointer;
+    font-size: clamp(.7rem, 1vw, 1rem);
 }
 
 .btn-get:hover {
@@ -129,7 +130,6 @@ header {
 
 .btn-b {
     width: 55%;
-    font-size: clamp(.7rem, 1vw, 1rem);
 }
 
 footer {
@@ -196,8 +196,17 @@ footer {
 }
 
 @media only screen and (min-width:850px) {
+  .container {
+    padding: 5rem;
+  }
+
   header {
       background: url(./images/bg-hero-desktop.svg) #eefbff;
+  }
+
+  
+  p {
+    font-size: clamp(.875rem, 1.5vw, 1.125rem);
   }
 
   .grid {

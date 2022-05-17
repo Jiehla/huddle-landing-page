@@ -206,11 +206,15 @@ footer {
 
   
   p {
-    font-size: clamp(.875rem, 1.5vw, 1.125rem);
+    font-size: clamp(.875rem, 1.5vw, 1rem);
   }
 
   .grid {
       display: grid;
+  }
+
+  .section-1 {
+      padding: 4rem 0;
   }
   
   .header-content,
@@ -236,10 +240,14 @@ footer {
         padding-top: 0;
     }
 
+    .card {
+        padding: 4rem 1.5rem;
+    }
+
     .card-img,
     .card-img-2,
     .card-text {
-        max-width: 60%;
+        max-width: 65%;
         justify-self: flex-end;
     }
 
@@ -253,6 +261,10 @@ footer {
 
     .card-text {
         max-width: 80%;
+    }
+
+    .card-text p {
+        font-size: clamp(.875rem, 1.5vw, 1.125rem);
     }
 
     .section-2 {
